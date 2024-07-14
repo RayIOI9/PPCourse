@@ -70,6 +70,7 @@
                 <tabBarController title="ClassworkTab" automaticallyAdjustsScrollViewInsets="NO" id="Yuq-z4-4Oc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fpn-0k-t51">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" systemColor="darkTextColor"/>
@@ -79,6 +80,7 @@
                     <connections>
                         <segue destination="QSg-Ex-J9E" kind="relationship" relationship="viewControllers" id="9sO-uR-gDx"/>
                         <segue destination="hNX-Cv-zkt" kind="relationship" relationship="viewControllers" id="TP8-bh-wwK"/>
+                        <segue destination="z1e-si-3gr" kind="relationship" relationship="viewControllers" id="H5n-eY-KQe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHu-dn-k2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -93,7 +95,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6Q-0D-3is" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="534" y="426"/>
+            <point key="canvasLocation" x="387" y="427"/>
         </scene>
         <!--Main-->
         <scene sceneID="w07-wZ-ppf">
@@ -103,19 +105,29 @@
             </objects>
             <point key="canvasLocation" x="2462" y="4"/>
         </scene>
+        <!--Lesson01-->
+        <scene sceneID="A0H-dB-wAt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lesson01" id="z1e-si-3gr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lesson01" id="PNc-ff-Co4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdp-Dp-Gj2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="427"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
