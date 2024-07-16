@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yuq-z4-4Oc">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -81,6 +82,7 @@
                         <segue destination="QSg-Ex-J9E" kind="relationship" relationship="viewControllers" id="9sO-uR-gDx"/>
                         <segue destination="hNX-Cv-zkt" kind="relationship" relationship="viewControllers" id="TP8-bh-wwK"/>
                         <segue destination="z1e-si-3gr" kind="relationship" relationship="viewControllers" id="H5n-eY-KQe"/>
+                        <segue destination="nHw-Rx-gXU" kind="relationship" relationship="viewControllers" id="dD9-0h-vVO"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHu-dn-k2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -95,7 +97,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6Q-0D-3is" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="387" y="427"/>
+            <point key="canvasLocation" x="233" y="427"/>
         </scene>
         <!--Main-->
         <scene sceneID="w07-wZ-ppf">
@@ -113,7 +115,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zdp-Dp-Gj2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="640" y="427"/>
+            <point key="canvasLocation" x="427" y="427"/>
+        </scene>
+        <!--Lesson02-->
+        <scene sceneID="s2Y-Gd-zpQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lesson02" id="nHw-Rx-gXU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lesson02" id="dNm-S2-am1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xCG-fx-u4M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="636" y="427"/>
         </scene>
     </scenes>
     <resources>
