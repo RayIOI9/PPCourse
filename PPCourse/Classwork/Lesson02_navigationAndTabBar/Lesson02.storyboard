@@ -14,17 +14,37 @@
             <objects>
                 <viewController title="Lesson02 root" id="Y6W-OH-hqX" customClass="Lesson02_root_ViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5v-ni-7PW">
-                                <rect key="frame" x="159" y="461" width="75" height="53"/>
+                                <rect key="frame" x="170" y="315" width="75" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="qBH-kS-lyz" kind="show" id="5MO-if-Kht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQu-X8-y63">
+                                <rect key="frame" x="135" y="586" width="144" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="回 classwork"/>
+                                <connections>
+                                    <segue destination="m3x-IT-EY3" kind="presentation" modalPresentationStyle="fullScreen" id="umw-ZY-XD8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX9-cV-wz2">
+                                <rect key="frame" x="135" y="702" width="144" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="回 Lwsson02"/>
+                                <connections>
+                                    <segue destination="vfg-Oj-yLy" kind="presentation" modalPresentationStyle="fullScreen" id="NWM-NG-zDv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,14 +61,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1858.7786259541983" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1857.9710144927537" y="-2.6785714285714284"/>
+        </scene>
+        <!--Classwork-->
+        <scene sceneID="iYM-2r-uXT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Classwork" id="m3x-IT-EY3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWl-VK-aJz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2250" y="415"/>
         </scene>
         <!--Lesson02 view2-->
         <scene sceneID="X5J-rb-DqF">
             <objects>
                 <viewController title="Lesson02 view2" id="qBH-kS-lyz" customClass="Lesson02_view2_ViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NUE-cF-aLx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sVj-kK-9FV">
@@ -90,7 +118,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Lesson02" id="PlR-9q-UJE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Bcc-cw-NMZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="standardAppearance"/>
                         <navigationBarAppearance key="scrollEdgeAppearance"/>
@@ -112,16 +140,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lya-DZ-ccv">
-                                <rect key="frame" x="116" y="654" width="160" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="Cya-b3-KUi" kind="show" id="wSG-vO-EEd"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9XD-d3-EbC">
                                 <rect key="frame" x="31" y="85" width="352" height="472"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -147,6 +165,16 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lya-DZ-ccv">
+                                <rect key="frame" x="127" y="684" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Cya-b3-KUi" kind="presentation" modalPresentationStyle="fullScreen" id="wSG-vO-EEd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fga-iN-rsj"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
@@ -165,6 +193,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="4Nx-et-Zm7"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CAe-0b-llF">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <tabBarAppearance key="standardAppearance"/>
@@ -185,7 +214,7 @@
             <objects>
                 <viewController title="Lesson02 root" id="rcM-kX-5oB" customClass="Lesson02_root_ViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hij-y2-f5y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIo-2q-ea3">
@@ -244,7 +273,7 @@
             <objects>
                 <tableViewController title="Lesson02_TbViewCtrl" id="PhE-7k-fZt" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="9Gc-Lf-Q5T">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -343,7 +372,7 @@
             <objects>
                 <viewController id="8LI-AQ-oCQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tcg-Ph-ivv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="腦筋急轉彎2" translatesAutoresizingMaskIntoConstraints="NO" id="sFm-Rs-86P">
@@ -367,7 +396,7 @@
                     <tabBarItem key="tabBarItem" title="TbViewCtrl" id="KSb-KQ-hE9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AJW-YH-dQp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -381,6 +410,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="5MO-if-Kht"/>
         <segue reference="8Vh-4Z-6Cs"/>
     </inferredMetricsTieBreakers>
     <resources>

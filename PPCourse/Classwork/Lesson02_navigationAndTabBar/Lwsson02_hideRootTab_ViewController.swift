@@ -17,6 +17,17 @@ class Lwsson02_hideRootTab_ViewController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // 隐藏旧的 Tab Bar
+        self.tabBarController?.tabBar.isHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        // 返回时恢复旧的 Tab Bar
+        self.tabBarController?.tabBar.isHidden = false
+    }
 
     /*
     // MARK: - Navigation
