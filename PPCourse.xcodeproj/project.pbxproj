@@ -13,6 +13,8 @@
 		7113357F2C454462001BF43F /* Lwsson02_hideRootTab_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7113357E2C454462001BF43F /* Lwsson02_hideRootTab_ViewController.swift */; };
 		711335822C492D18001BF43F /* Lesson03.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711335812C492D18001BF43F /* Lesson03.storyboard */; };
 		711335842C492D34001BF43F /* Lesson03_root_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711335832C492D34001BF43F /* Lesson03_root_ViewController.swift */; };
+		711C15DE2C4A96A80056D3C7 /* Lesson033thViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C15DD2C4A96A80056D3C7 /* Lesson033thViewController.swift */; };
+		711C15E02C4A98FB0056D3C7 /* Lesson031stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C15DF2C4A98FB0056D3C7 /* Lesson031stViewController.swift */; };
 		71D687812C3FFBB000263549 /* Lesson01.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D687802C3FFBB000263549 /* Lesson01.storyboard */; };
 		71D687832C3FFBF900263549 /* Lesson01_root_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D687822C3FFBF900263549 /* Lesson01_root_ViewController.swift */; };
 		71F052BC2C2C6E4000B8285F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F052BB2C2C6E4000B8285F /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 		7113357E2C454462001BF43F /* Lwsson02_hideRootTab_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lwsson02_hideRootTab_ViewController.swift; sourceTree = "<group>"; };
 		711335812C492D18001BF43F /* Lesson03.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson03.storyboard; sourceTree = "<group>"; };
 		711335832C492D34001BF43F /* Lesson03_root_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson03_root_ViewController.swift; sourceTree = "<group>"; };
+		711C15DD2C4A96A80056D3C7 /* Lesson033thViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson033thViewController.swift; sourceTree = "<group>"; };
+		711C15DF2C4A98FB0056D3C7 /* Lesson031stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson031stViewController.swift; sourceTree = "<group>"; };
 		71D687802C3FFBB000263549 /* Lesson01.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson01.storyboard; sourceTree = "<group>"; };
 		71D687822C3FFBF900263549 /* Lesson01_root_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01_root_ViewController.swift; sourceTree = "<group>"; };
 		71F052B82C2C6E4000B8285F /* PPCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +89,8 @@
 			children = (
 				711335812C492D18001BF43F /* Lesson03.storyboard */,
 				711335832C492D34001BF43F /* Lesson03_root_ViewController.swift */,
+				711C15DD2C4A96A80056D3C7 /* Lesson033thViewController.swift */,
+				711C15DF2C4A98FB0056D3C7 /* Lesson031stViewController.swift */,
 			);
 			path = Lesson03_UISupplementAndSwift;
 			sourceTree = "<group>";
@@ -252,8 +258,10 @@
 				71F052DB2C2FF13F00B8285F /* ClassworkViewController.swift in Sources */,
 				711335842C492D34001BF43F /* Lesson03_root_ViewController.swift in Sources */,
 				71F052D92C2DD42E00B8285F /* MainViewController.swift in Sources */,
+				711C15DE2C4A96A80056D3C7 /* Lesson033thViewController.swift in Sources */,
 				7113357D2C453C2B001BF43F /* Lesson02_view2_ViewController.swift in Sources */,
 				7113357F2C454462001BF43F /* Lwsson02_hideRootTab_ViewController.swift in Sources */,
+				711C15E02C4A98FB0056D3C7 /* Lesson031stViewController.swift in Sources */,
 				71F052BC2C2C6E4000B8285F /* AppDelegate.swift in Sources */,
 				71F052E12C2FF4E100B8285F /* HomeworkViewController.swift in Sources */,
 				71F052E32C32F43400B8285F /* Assignment00_1ViewController.swift in Sources */,

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -23,13 +23,23 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4l-6w-b9y">
-                                <rect key="frame" x="112" y="605" width="160" height="58"/>
+                                <rect key="frame" x="112" y="610" width="160" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="進入課程練習"/>
                                 <connections>
                                     <segue destination="f8D-8S-8d7" kind="presentation" modalPresentationStyle="fullScreen" id="NYQ-tM-veW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4h-Ux-Bss">
+                                <rect key="frame" x="112" y="710" width="160" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="回 classwork"/>
+                                <connections>
+                                    <segue destination="pw7-dQ-lF7" kind="presentation" modalPresentationStyle="fullScreen" id="cPF-Hd-6IS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,7 +79,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eF2-Yr-rgO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1566" y="835"/>
+            <point key="canvasLocation" x="2202" y="728"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="QbH-dx-3k0">
@@ -78,12 +88,14 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="F1L-LN-jFu"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XSE-9D-0OL">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="63A-bt-2Wy" kind="relationship" relationship="viewControllers" id="wDR-Ky-YYG"/>
                         <segue destination="cDK-yp-k3h" kind="relationship" relationship="viewControllers" id="4I9-sY-elA"/>
+                        <segue destination="iVY-lK-FPd" kind="relationship" relationship="viewControllers" id="ces-Sv-Iky"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2R-YL-FXY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -107,34 +119,24 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vTe-L1-q4M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="835"/>
+            <point key="canvasLocation" x="1534" y="728"/>
         </scene>
         <!--Lesson03_1st-->
         <scene sceneID="WvQ-hf-Vs0">
             <objects>
-                <viewController title="Lesson03_1st" id="63A-bt-2Wy" customClass="Lesson02_root_ViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Lesson03_1st" id="63A-bt-2Wy" customClass="Lesson031stViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nC7-wM-eQN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDG-kA-lDJ">
-                                <rect key="frame" x="110" y="313" width="144" height="82"/>
+                                <rect key="frame" x="124" y="365" width="144" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="回 Lwsson03"/>
                                 <connections>
                                     <segue destination="Y6W-OH-hqX" kind="presentation" modalPresentationStyle="fullScreen" id="BXp-gU-nIf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4h-Ux-Bss">
-                                <rect key="frame" x="110" y="476" width="144" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.70763014680000003" blue="0.19414341039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="回 classwork"/>
-                                <connections>
-                                    <segue destination="ECl-Ts-C8V" kind="presentation" modalPresentationStyle="fullScreen" id="dRV-mi-Zo4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -155,23 +157,124 @@
             <point key="canvasLocation" x="1535" y="-6"/>
         </scene>
         <!--Classwork-->
-        <scene sceneID="W4F-N2-Zjv">
+        <scene sceneID="wEq-GD-j0L">
             <objects>
-                <viewControllerPlaceholder storyboardName="Classwork" id="ECl-Ts-C8V" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="7gF-OS-jH4"/>
+                <viewControllerPlaceholder storyboardName="Classwork" id="pw7-dQ-lF7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Trs-sW-j8e"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dow-zp-bnr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZj-O4-Oq9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2129" y="-6"/>
+            <point key="canvasLocation" x="-202" y="405"/>
+        </scene>
+        <!--Lesson03_3nd-->
+        <scene sceneID="5pE-2O-9w5">
+            <objects>
+                <viewController title="Lesson03_3nd" id="iVY-lK-FPd" customClass="Lesson033thViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="deK-Xl-JU5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cCi-fI-ISK">
+                                <rect key="frame" x="0.0" y="105" width="393" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeTab:" destination="iVY-lK-FPd" eventType="valueChanged" id="H5U-Xi-GqV"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e0Z-rJ-Q3J" userLabel="Container View1">
+                                <rect key="frame" x="0.0" y="133" width="393" height="535"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="uxf-EB-b50" kind="embed" id="9yL-kK-VMo"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wF8-de-swj" userLabel="Container View2">
+                                <rect key="frame" x="0.0" y="133" width="393" height="535"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="PLL-gf-IJ6" kind="embed" id="eLb-AK-znl"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JDi-d0-h5Z"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lesson03_3th" id="wkI-Qp-XyF"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Lesson02 root" id="4kr-lz-3mO">
+                        <barButtonItem key="rightBarButtonItem" title="bttn" image="square.and.arrow.up.circle.fill" catalog="system" id="k0i-eB-pYT">
+                            <color key="tintColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outletCollection property="containerArr" destination="e0Z-rJ-Q3J" collectionClass="NSMutableArray" id="0i1-66-6he"/>
+                        <outletCollection property="containerArr" destination="wF8-de-swj" collectionClass="NSMutableArray" id="L8X-JS-8mf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QEN-4w-MVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533.5877862595419" y="1429.5774647887324"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xnE-9Q-Kb4">
+            <objects>
+                <viewController id="uxf-EB-b50" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vou-d9-mhY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="535"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lesson01_練習圖1" translatesAutoresizingMaskIntoConstraints="NO" id="tN7-aT-SzQ">
+                                <rect key="frame" x="78" y="119" width="237" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="He0-YE-3ex"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e7Q-Dm-ees" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2317" y="1317"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zwi-Vq-omh">
+            <objects>
+                <viewController id="PLL-gf-IJ6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AaM-2g-sN7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="535"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lesson01_練習圖2" translatesAutoresizingMaskIntoConstraints="NO" id="yRl-FW-i9o">
+                                <rect key="frame" x="78" y="119" width="237" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DmM-8t-ls6"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWK-A6-SBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2317" y="1767"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Lesson01_練習圖1" width="1024" height="1024"/>
+        <image name="Lesson01_練習圖2" width="768" height="768"/>
         <image name="square.and.arrow.up.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
