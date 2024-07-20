@@ -28,7 +28,24 @@ class Lesson03_root_ViewController: UIViewController {
         practiseSWIFT();
     }
     
+    /// documentation comment  用///開頭，格式如下
+    ///
+    /// 這邊是discussion
+    /// bla bla bla bla
+    /// bla bla bla bla
+    ///
+    /// 跳行了還會是discussion
+    ///
+    /// - Parameters:
+    ///   - 參數1: 參數1說明
+    ///   - para2: 參數2說明
+    ///
+    /// - Returns: 回傳資料說明
+    ///
+    /// - Throws: `xxxError.xxxgodie` 拋出錯誤說明
     private func practiseSWIFT(){
+        print("eee", terminator: "eee")
+        
         
     }
     

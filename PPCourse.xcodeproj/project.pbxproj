@@ -424,6 +424,7 @@
 				DEVELOPMENT_TEAM = Z3D9SGCR2Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PPCourse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ios課程練習";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -455,6 +456,7 @@
 				DEVELOPMENT_TEAM = Z3D9SGCR2Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PPCourse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ios課程練習";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
