@@ -17,6 +17,8 @@
 		711C15E02C4A98FB0056D3C7 /* Lesson031stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C15DF2C4A98FB0056D3C7 /* Lesson031stViewController.swift */; };
 		7126A02F2C4B519B00423537 /* Assignment02.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A02E2C4B519B00423537 /* Assignment02.storyboard */; };
 		7126A0312C4B536F00423537 /* Assignment02RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A0302C4B536F00423537 /* Assignment02RootViewController.swift */; };
+		7126A0342C4E7F7500423537 /* Lesson04.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A0332C4E7F7500423537 /* Lesson04.storyboard */; };
+		7126A0362C4E7F8E00423537 /* Lesson04RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A0352C4E7F8E00423537 /* Lesson04RootViewController.swift */; };
 		71D687812C3FFBB000263549 /* Lesson01.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D687802C3FFBB000263549 /* Lesson01.storyboard */; };
 		71D687832C3FFBF900263549 /* Lesson01_root_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D687822C3FFBF900263549 /* Lesson01_root_ViewController.swift */; };
 		71F052BC2C2C6E4000B8285F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F052BB2C2C6E4000B8285F /* AppDelegate.swift */; };
@@ -46,6 +48,8 @@
 		711C15DF2C4A98FB0056D3C7 /* Lesson031stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson031stViewController.swift; sourceTree = "<group>"; };
 		7126A02E2C4B519B00423537 /* Assignment02.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assignment02.storyboard; sourceTree = "<group>"; };
 		7126A0302C4B536F00423537 /* Assignment02RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment02RootViewController.swift; sourceTree = "<group>"; };
+		7126A0332C4E7F7500423537 /* Lesson04.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson04.storyboard; sourceTree = "<group>"; };
+		7126A0352C4E7F8E00423537 /* Lesson04RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson04RootViewController.swift; sourceTree = "<group>"; };
 		71D687802C3FFBB000263549 /* Lesson01.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson01.storyboard; sourceTree = "<group>"; };
 		71D687822C3FFBF900263549 /* Lesson01_root_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01_root_ViewController.swift; sourceTree = "<group>"; };
 		71F052B82C2C6E4000B8285F /* PPCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,15 @@
 			path = Assignment02_bank;
 			sourceTree = "<group>";
 		};
+		7126A0322C4E7F5A00423537 /* Lesson04_ */ = {
+			isa = PBXGroup;
+			children = (
+				7126A0332C4E7F7500423537 /* Lesson04.storyboard */,
+				7126A0352C4E7F8E00423537 /* Lesson04RootViewController.swift */,
+			);
+			path = Lesson04_;
+			sourceTree = "<group>";
+		};
 		71D6877F2C3FF20D00263549 /* Lesson01_newProject */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +165,7 @@
 		71F052CF2C2C780D00B8285F /* Classwork */ = {
 			isa = PBXGroup;
 			children = (
+				7126A0322C4E7F5A00423537 /* Lesson04_ */,
 				711335802C492CFB001BF43F /* Lesson03_UISupplementAndSwift */,
 				711335772C45387C001BF43F /* Lesson02_navigationAndTabBar */,
 				71D6877F2C3FF20D00263549 /* Lesson01_newProject */,
@@ -255,6 +269,7 @@
 				7126A02F2C4B519B00423537 /* Assignment02.storyboard in Resources */,
 				71F052DD2C2FF4A300B8285F /* Assignment00.storyboard in Resources */,
 				71F052DF2C2FF4B900B8285F /* Homework.storyboard in Resources */,
+				7126A0342C4E7F7500423537 /* Lesson04.storyboard in Resources */,
 				711335792C453892001BF43F /* Lesson02.storyboard in Resources */,
 				71F052D72C2DD1B300B8285F /* Classwork.storyboard in Resources */,
 				71F052C32C2C6E4000B8285F /* Main.storyboard in Resources */,
@@ -282,6 +297,7 @@
 				71F052E12C2FF4E100B8285F /* HomeworkViewController.swift in Sources */,
 				71F052E32C32F43400B8285F /* Assignment00_1ViewController.swift in Sources */,
 				71F052BE2C2C6E4000B8285F /* SceneDelegate.swift in Sources */,
+				7126A0362C4E7F8E00423537 /* Lesson04RootViewController.swift in Sources */,
 				71F052E52C32FBBB00B8285F /* Assignment00_2ViewController.swift in Sources */,
 				71D687832C3FFBF900263549 /* Lesson01_root_ViewController.swift in Sources */,
 				7113357B2C4538AF001BF43F /* Lesson02_root_ViewController.swift in Sources */,
