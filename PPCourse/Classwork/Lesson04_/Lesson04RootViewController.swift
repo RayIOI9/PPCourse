@@ -1,32 +1,20 @@
 //
-//  Assignment00ViewController.swift
+//  Lesson04RootViewController.swift
 //  PPCourse
 //
-//  Created by Ray on 2024/7/1.
+//  Created by Ray on 2024/7/22.
 //
 
 import UIKit
 
-class Assignment00_1ViewController: UIViewController {
+class Lesson04RootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        // 隱藏舊的 Tab Bar
-        self.tabBarController?.tabBar.isHidden = true
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        // 返回時恢復舊的 Tab Bar
-        self.tabBarController?.tabBar.isHidden = false
-    }
 
     /*
     // MARK: - Navigation
