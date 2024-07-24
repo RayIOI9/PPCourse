@@ -20,6 +20,27 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Ak-0J-1Kg">
                                 <rect key="frame" x="16" y="90" width="352" height="472"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-hT-2Ga">
+                                        <rect key="frame" x="16" y="46" width="328" height="418"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">本堂課程大綱 
+
+1. UI細節補充(table view, container view)
+2. dark mode說明
+3. 設定APP名稱, 設定開頭launchScreen.storyboard
+4. xcpde小技巧補充
+5. swift(基礎語法, 元件屬性設定, func呼叫)
+6. ios sdk(UI系列物件)
+
+常用、延伸說明
++ 切多個storyboard
++ 切換tab效果(segment control + container view)</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4l-6w-b9y">
@@ -50,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-201" y="-6"/>
+            <point key="canvasLocation" x="-202.29007633587784" y="-6.3380281690140849"/>
         </scene>
         <!--Lesson03_2nd-->
         <scene sceneID="kIb-pn-7zU">
