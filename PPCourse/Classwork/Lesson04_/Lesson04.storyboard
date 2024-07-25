@@ -12,7 +12,7 @@
         <!--Lesson04-->
         <scene sceneID="1bR-hL-spq">
             <objects>
-                <viewController title="Lesson04" id="8LH-VW-Ocb" customClass="Lesson03_root_ViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Lesson04" id="8LH-VW-Ocb" customClass="Lesson04RootViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9D6-Zz-UD6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,16 +26,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">本堂課程大綱 
 
-1. UI細節補充(table view, container view)
-2. dark mode說明
-3. 設定APP名稱, 設定開頭launchScreen.storyboard
-4. xcpde小技巧補充
-5. swift(基礎語法, 元件屬性設定, func呼叫)
-6. ios sdk(UI系列物件)
-
-常用、延伸說明
-+ 切多個storyboard
-+ 切換tab效果(segment control + container view)</string>
+待補充</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
