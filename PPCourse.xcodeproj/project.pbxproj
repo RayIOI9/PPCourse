@@ -26,6 +26,10 @@
 		71C470632C5219FB006A90F6 /* Assignment03Container2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C470622C5219FB006A90F6 /* Assignment03Container2ViewController.swift */; };
 		71C470F52C591957006A90F6 /* Lesson04_1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C470F42C591957006A90F6 /* Lesson04_1stViewController.swift */; };
 		71C470F72C591DC2006A90F6 /* Lesson04practise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C470F62C591DC2006A90F6 /* Lesson04practise.swift */; };
+		71C470662C523360006A90F6 /* Lesson05.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C470652C523360006A90F6 /* Lesson05.storyboard */; };
+		71C470682C523418006A90F6 /* Lesson05RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C470672C523418006A90F6 /* Lesson05RootViewController.swift */; };
+		71C4706A2C526E0D006A90F6 /* Lesson05_1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C470692C526E0D006A90F6 /* Lesson05_1stViewController.swift */; };
+		71C4706C2C528504006A90F6 /* Lesson05_2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4706B2C528504006A90F6 /* Lesson05_2ndViewController.swift */; };
 		71D687812C3FFBB000263549 /* Lesson01.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D687802C3FFBB000263549 /* Lesson01.storyboard */; };
 		71D687832C3FFBF900263549 /* Lesson01_root_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D687822C3FFBF900263549 /* Lesson01_root_ViewController.swift */; };
 		71F052BC2C2C6E4000B8285F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F052BB2C2C6E4000B8285F /* AppDelegate.swift */; };
@@ -64,6 +68,10 @@
 		71C470622C5219FB006A90F6 /* Assignment03Container2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment03Container2ViewController.swift; sourceTree = "<group>"; };
 		71C470F42C591957006A90F6 /* Lesson04_1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson04_1stViewController.swift; sourceTree = "<group>"; };
 		71C470F62C591DC2006A90F6 /* Lesson04practise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson04practise.swift; sourceTree = "<group>"; };
+		71C470652C523360006A90F6 /* Lesson05.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson05.storyboard; sourceTree = "<group>"; };
+		71C470672C523418006A90F6 /* Lesson05RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson05RootViewController.swift; sourceTree = "<group>"; };
+		71C470692C526E0D006A90F6 /* Lesson05_1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson05_1stViewController.swift; sourceTree = "<group>"; };
+		71C4706B2C528504006A90F6 /* Lesson05_2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson05_2ndViewController.swift; sourceTree = "<group>"; };
 		71D687802C3FFBB000263549 /* Lesson01.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson01.storyboard; sourceTree = "<group>"; };
 		71D687822C3FFBF900263549 /* Lesson01_root_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01_root_ViewController.swift; sourceTree = "<group>"; };
 		71F052B82C2C6E4000B8285F /* PPCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +157,17 @@
 			path = Assignment03_UIpractise;
 			sourceTree = "<group>";
 		};
+		71C470642C523347006A90F6 /* Lesson05_ */ = {
+			isa = PBXGroup;
+			children = (
+				71C470652C523360006A90F6 /* Lesson05.storyboard */,
+				71C470672C523418006A90F6 /* Lesson05RootViewController.swift */,
+				71C470692C526E0D006A90F6 /* Lesson05_1stViewController.swift */,
+				71C4706B2C528504006A90F6 /* Lesson05_2ndViewController.swift */,
+			);
+			path = Lesson05_;
+			sourceTree = "<group>";
+		};
 		71D6877F2C3FF20D00263549 /* Lesson01_newProject */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				7126A0322C4E7F5A00423537 /* Lesson04_Swift */,
+				71C470642C523347006A90F6 /* Lesson05_ */,
+				7126A0322C4E7F5A00423537 /* Lesson04_ */,
 				711335802C492CFB001BF43F /* Lesson03_UISupplementAndSwift */,
 				711335772C45387C001BF43F /* Lesson02_navigationAndTabBar */,
 				71D6877F2C3FF20D00263549 /* Lesson01_newProject */,
@@ -305,6 +326,7 @@
 				71F052C32C2C6E4000B8285F /* Main.storyboard in Resources */,
 				71D687812C3FFBB000263549 /* Lesson01.storyboard in Resources */,
 				711335822C492D18001BF43F /* Lesson03.storyboard in Resources */,
+				71C470662C523360006A90F6 /* Lesson05.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C470682C523418006A90F6 /* Lesson05RootViewController.swift in Sources */,
 				71F052DB2C2FF13F00B8285F /* ClassworkViewController.swift in Sources */,
 				711335842C492D34001BF43F /* Lesson03_root_ViewController.swift in Sources */,
 				71F052D92C2DD42E00B8285F /* MainViewController.swift in Sources */,
 				71C4705F2C5216C0006A90F6 /* Assignment03_1stViewController.swift in Sources */,
+				71C4706C2C528504006A90F6 /* Lesson05_2ndViewController.swift in Sources */,
 				711C15DE2C4A96A80056D3C7 /* Lesson033thViewController.swift in Sources */,
 				7113357D2C453C2B001BF43F /* Lesson02_view2_ViewController.swift in Sources */,
 				7126A0312C4B536F00423537 /* Assignment02RootViewController.swift in Sources */,
@@ -336,6 +360,7 @@
 				71F052E52C32FBBB00B8285F /* Assignment00_2ViewController.swift in Sources */,
 				71D687832C3FFBF900263549 /* Lesson01_root_ViewController.swift in Sources */,
 				7113357B2C4538AF001BF43F /* Lesson02_root_ViewController.swift in Sources */,
+				71C4706A2C526E0D006A90F6 /* Lesson05_1stViewController.swift in Sources */,
 				71C470612C521968006A90F6 /* SubwayLogoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
