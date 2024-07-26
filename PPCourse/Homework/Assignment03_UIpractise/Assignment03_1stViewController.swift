@@ -20,10 +20,14 @@ class Assignment03_1stViewController: UIViewController {
     }
     
     @IBAction func changeTab(_ sender: UISegmentedControl) {
-        for containerView in containerArray {
-              containerView.isHidden = true
-           }
-        containerArray[sender.selectedSegmentIndex].isHidden = false
+//        for containerView in containerArray {
+//              containerView.isHidden = true
+//        }
+//        containerArray[sender.selectedSegmentIndex].isHidden = false
+        
+        for (index, containerView) in containerArray.enumerated() {
+            containerView.isHidden = (index != sender.selectedSegmentIndex)
+        }
     }
     
     /*
