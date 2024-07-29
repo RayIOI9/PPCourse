@@ -91,14 +91,15 @@ class Lesson03_root_ViewController: UIViewController {
         let SFImage = UIImage(systemName: "wifi")
 
         // 疊圖練習1
-        let winnieImage = UIImage(named: "image0718去背.png")
+//        let winnieImage = UIImage(named: "image0718去背.png") 在playground才會需要完整檔名
+        let winnieImage = UIImage(named: "Lesson03_image0718去背") // 在app專案會有圖片名稱
         let winnieImageView = UIImageView(image: winnieImage)
         // CGFloat也是浮點數的一種
         winnieImageView.backgroundColor = UIColor(red: 10/255, green: 18/255, blue: 10/255, alpha: 0)
         // frame 屬性改大小
         winnieImageView.frame = CGRect(x: 10, y: 10, width: 1000, height: 1000)
         // 設定底圖
-        let patternImageView = UIImageView(image: UIImage(named: "菱格底圖.jpg"))
+        let patternImageView = UIImageView(image: UIImage(named: "Lesson03_菱格底圖")) // 在app專案會有圖片名稱
         patternImageView.backgroundColor = UIColor(red: 10/255, green: 18/255, blue: 10/255, alpha: 1)
         patternImageView.frame = winnieImageView.frame
         // 疊上addSubview()
