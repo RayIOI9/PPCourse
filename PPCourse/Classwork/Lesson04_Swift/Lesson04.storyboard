@@ -22,11 +22,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfe-Xs-SUz">
-                                        <rect key="frame" x="16" y="46" width="328" height="418"/>
+                                        <rect key="frame" x="16" y="22" width="328" height="385"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">本堂課程大綱 
+                                        <mutableString key="text">本堂課程大綱 
+1. swift語法
+    &gt; function(parameter external name 、 Internal name)
+    &gt; class, object, inheritance, 型別屬性、方法
+2. 常用屬性(UIView.layer.xxx, UIView.transform)
+3. SDK內常用元件(影音播放、瀏覽器、地圖、日期)
+4. UIBezierPath繪圖
 
-待補充</string>
+常用、延伸說明
+1. SDK內常用縮寫
+2. #Preview初步說明
+3. xcode開發相關補充</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -77,11 +86,28 @@
                     </tabBar>
                     <connections>
                         <segue destination="JqS-ud-4do" kind="relationship" relationship="viewControllers" id="WwY-A5-M4d"/>
+                        <segue destination="yfA-ji-x1X" kind="relationship" relationship="viewControllers" id="Jt7-tu-Tdg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JbF-3V-egx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="614.50381679389307" y="-6.3380281690140849"/>
+        </scene>
+        <!--Lesson04_1st-->
+        <scene sceneID="b7e-9r-rf3">
+            <objects>
+                <viewController title="Lesson04_1st" id="yfA-ji-x1X" customClass="Lesson04_1stViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7oN-c9-CB9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ncu-NB-hWa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lesson04_1st" id="4V2-V9-gmU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8S-Gc-wTY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="-6"/>
         </scene>
         <!--Lesson_back-->
         <scene sceneID="uWR-Ko-weT">
