@@ -11,6 +11,11 @@ import UIKit
 class SubwayLogoView: UIView {
     
     override func draw(_ rect: CGRect) {
+//        •    完全自定義視圖：如果不依賴父類的繪製邏輯，可以不調用 super.draw(rect)。
+//        •    子類化標準 UI 元素：通常應該調用 super.draw(rect) 以保證標準元素的繪製行為不受影響。
+//        > 例如：若是繼承UILabel，因其繪製邏輯在父層，就會需要super.draw(rect)
+//        super.draw(rect)
+        
         // 設置綠色部分
         let greenColor = UIColor(red: 0/255, green: 125/255, blue: 50/255, alpha: 1.0)
         greenColor.setFill()
