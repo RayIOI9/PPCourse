@@ -159,7 +159,7 @@
 			path = Assignment03_UIpractise;
 			sourceTree = "<group>";
 		};
-		71C470642C523347006A90F6 /* Lesson05_ */ = {
+		71C470642C523347006A90F6 /* Lesson05_UItoCode */ = {
 			isa = PBXGroup;
 			children = (
 				71C470652C523360006A90F6 /* Lesson05.storyboard */,
@@ -168,7 +168,7 @@
 				71C4706B2C528504006A90F6 /* Lesson05_2ndViewController.swift */,
 				71A230DB2C5EA555006F4E54 /* Lesson05_3rdViewController.swift */,
 			);
-			path = Lesson05_;
+			path = Lesson05_UItoCode;
 			sourceTree = "<group>";
 		};
 		71D6877F2C3FF20D00263549 /* Lesson01_newProject */ = {
@@ -215,7 +215,7 @@
 		71F052CF2C2C780D00B8285F /* Classwork */ = {
 			isa = PBXGroup;
 			children = (
-				71C470642C523347006A90F6 /* Lesson05_ */,
+				71C470642C523347006A90F6 /* Lesson05_UItoCode */,
 				7126A0322C4E7F5A00423537 /* Lesson04_Swift */,
 				711335802C492CFB001BF43F /* Lesson03_UISupplementAndSwift */,
 				711335772C45387C001BF43F /* Lesson02_navigationAndTabBar */,
