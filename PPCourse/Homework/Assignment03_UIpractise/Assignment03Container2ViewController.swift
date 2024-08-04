@@ -11,12 +11,9 @@ class Assignment03Container2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        // 設置 Subway 標誌視圖
-        let subwayLogoView = SubwayLogoView(frame: CGRect(x: 0, y: 0, width: 400, height: 200))
-//        subwayLogoView.center = self.view.center
-        self.view.addSubview(subwayLogoView)
+        // 繪圖
+        let subwayLogoLayer = SubwayLogo().logo
+        self.view.layer.addSublayer(subwayLogoLayer!)
     }
     
 

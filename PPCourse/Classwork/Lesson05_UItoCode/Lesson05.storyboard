@@ -23,11 +23,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0N-oe-BQR">
-                                        <rect key="frame" x="16" y="46" width="328" height="418"/>
+                                        <rect key="frame" x="8" y="55" width="336" height="336"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">本堂課程大綱 
 
-待補充</string>
+1. storyboard與controller類別對應及介面互動(outlet,action &amp; gesture)
+2. 可有可無的 optional
+3. 開發階段顯示資訊print logger
+4. available版本支援
+5. 預覽功能 #Preview 
+6. 手勢（放到Assignment03練習）
+7. 程式內生成圖片
+
+常用、延伸說明
+1. xcode 開發補充、模擬器補充、UIKit補充
+2. 亂數
+3. Array</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -156,7 +167,7 @@
         <!--Lesson05_3nd-->
         <scene sceneID="93Y-2R-Lzv">
             <objects>
-                <viewController storyboardIdentifier="Lesson05_3ndViewController" title="Lesson05_3nd" id="Jip-7O-27l" customClass="Lesson05_3ndViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lesson05_3rdViewController" title="Lesson05_3nd" id="Jip-7O-27l" customClass="Lesson05_3ndViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cg5-0s-0Tk">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

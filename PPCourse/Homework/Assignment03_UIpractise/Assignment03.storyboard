@@ -13,7 +13,7 @@
         <!--Assignment03_1st-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController title="Assignment03_1st" id="Y6W-OH-hqX" customClass="Assignment03_1stViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Assignment03_1stViewController" title="Assignment03_1st" id="Y6W-OH-hqX" customClass="Assignment03_1stViewController" customModule="PPCourse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,6 +33,7 @@
                                 <rect key="frame" x="0.0" y="122" width="393" height="532"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4U6-NB-veV" appends="YES" id="DeW-fh-ajW"/>
                                     <segue destination="77E-tZ-5ge" kind="embed" id="UQI-h2-5dE"/>
                                 </connections>
                             </containerView>
@@ -43,17 +44,29 @@
                                     <segue destination="B52-fE-Kyp" kind="embed" id="jgk-4N-xOJ"/>
                                 </connections>
                             </containerView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="aT2-Iv-dSW">
+                                <rect key="frame" x="121" y="662" width="150" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.9529411793" green="0.62745100259999997" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assignment03_1st" id="M4o-Bf-UwE"/>
                     <connections>
+                        <outlet property="containerSegmented" destination="6ea-2s-QRz" id="9wI-Mf-4Bh"/>
+                        <outlet property="dotPageControl" destination="aT2-Iv-dSW" id="Kg7-td-qsD"/>
                         <outletCollection property="containerArray" destination="mmP-Yw-jEj" collectionClass="NSMutableArray" id="2AZ-uK-CeP"/>
                         <outletCollection property="containerArray" destination="6mn-eE-U3e" collectionClass="NSMutableArray" id="X1j-JE-fVF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="4U6-NB-veV" userLabel="Left Swipe Gesture Recognizer">
+                    <connections>
+                        <action selector="swipTab:" destination="Y6W-OH-hqX" id="ftB-zJ-sOi"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1620.6106870229007" y="-6.3380281690140849"/>
         </scene>
@@ -79,7 +92,7 @@
 
 2. 顏色及Dark mode支援
 
-3. 利用UIBezierPath繪圖-subway標誌</string>
+3. 利用UIBezierPath繪圖-愛心    (X)subway標誌</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -225,10 +238,16 @@ view的背景則預設為 System Background Color</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="K9b-Jg-XZl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Po5-ik-fHH" appends="YES" id="Zcf-lw-Idz"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVe-mB-are" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Po5-ik-fHH"/>
             </objects>
             <point key="canvasLocation" x="2458.7786259541986" y="-321.12676056338029"/>
         </scene>
