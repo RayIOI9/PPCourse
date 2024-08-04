@@ -1,5 +1,5 @@
 //
-//  Lesson05_3ndViewController.swift
+//  Lesson05_3rdViewController.swift
 //  PPCourse
 //
 //  Created by Ray on 2024/8/4.
@@ -17,6 +17,7 @@ class Lesson05_3rdViewController: UIViewController {
         super.viewDidLoad()
         // 程式內設定畫面
         setupView()
+        
         // 播音樂
         //        self.player = AVPlayer(url: url!)
         // 另種寫法
