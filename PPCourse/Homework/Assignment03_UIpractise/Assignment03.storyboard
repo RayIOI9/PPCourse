@@ -44,6 +44,10 @@
                                     <segue destination="B52-fE-Kyp" kind="embed" id="jgk-4N-xOJ"/>
                                 </connections>
                             </containerView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="aT2-Iv-dSW">
+                                <rect key="frame" x="121" y="662" width="150" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.9529411793" green="0.62745100259999997" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -52,6 +56,7 @@
                     <tabBarItem key="tabBarItem" title="Assignment03_1st" id="M4o-Bf-UwE"/>
                     <connections>
                         <outlet property="containerSegmented" destination="6ea-2s-QRz" id="9wI-Mf-4Bh"/>
+                        <outlet property="dotPageControl" destination="aT2-Iv-dSW" id="Kg7-td-qsD"/>
                         <outletCollection property="containerArray" destination="mmP-Yw-jEj" collectionClass="NSMutableArray" id="2AZ-uK-CeP"/>
                         <outletCollection property="containerArray" destination="6mn-eE-U3e" collectionClass="NSMutableArray" id="X1j-JE-fVF"/>
                     </connections>
@@ -87,7 +92,7 @@
 
 2. 顏色及Dark mode支援
 
-3. 利用UIBezierPath繪圖-subway標誌</string>
+3. 利用UIBezierPath繪圖-愛心    (X)subway標誌</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

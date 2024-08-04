@@ -9,6 +9,8 @@ import UIKit
 
 class Assignment03_1stViewController: UIViewController {
 
+    @IBOutlet weak var dotPageControl: UIPageControl!
+    
     @IBOutlet weak var containerSegmented: UISegmentedControl!
     
     @IBOutlet var containerArray: [UIView]!
@@ -20,14 +22,26 @@ class Assignment03_1stViewController: UIViewController {
         containerArray[0].isHidden = false
         containerArray[1].isHidden = true
         
-        //
+        // 設置 UIPageControl 的頁數
+        dotPageControl.numberOfPages = containerSegmented.numberOfSegments
+        dotPageControl.currentPage = containerSegmented.selectedSegmentIndex
+        
+        // 從程式新增右滑動作
+        // 宣告UISwipeGestureRecognizer設定方向
         let rightSwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(swipTab(_:)))
         rightSwipeGestureRecognizer.direction = .right
+        // 將要加上Gesture的畫面元件設為可點選
+        // UIView屬性isUserInteractionEnabled設為true
         containerArray[1].isUserInteractionEnabled = true
+        // 將Gesture加入畫面元件
+        // UIView方法addGestureRecognizer()
         containerArray[1].addGestureRecognizer(rightSwipeGestureRecognizer)
+        
+        // 從程式添加 UIPageControl 的目標動作綁定
+        dotPageControl.addTarget(self, action: #selector(pageControlChanged(_:)), for: .valueChanged)
     }
     
-    //  @IBAction實際上隱含地包含 @obj，因此func可與interfaceBuilder拖拉的共用
+    //  @IBAction實際上隱含 @obj，因此func可與interfaceBuilder拖拉的共用
     @IBAction func swipTab(_ sender: UISwipeGestureRecognizer) {
         if sender.direction == .left {
             print("Left Swipe")
@@ -36,7 +50,6 @@ class Assignment03_1stViewController: UIViewController {
             if (containerSegmented.selectedSegmentIndex < containerSegmented.numberOfSegments - 1) {
                 containerSegmented.selectedSegmentIndex += 1
             }
-            changeTab(containerSegmented)
         } else if sender.direction == .right {
             // 右滑改由程式設定
             print("Right Swipe")
@@ -44,12 +57,20 @@ class Assignment03_1stViewController: UIViewController {
             if containerSegmented.selectedSegmentIndex > 0 {
                 containerSegmented.selectedSegmentIndex -= 1
             }
-            changeTab(containerSegmented)
         }
+        // 換頁
+        changeTab(containerSegmented)
     }
     
-    //因 @IBAction實際上隱含地包含 @obj，因此func共用 @IBAction func swipTab
-//    @objc func swipRight(_ sender: UISwipeGestureRecognizer) { }
+    // 小圓點動作
+    @objc func pageControlChanged(_ sender: UIPageControl) {
+        print("小圓點換頁")
+        containerSegmented.selectedSegmentIndex = sender.currentPage
+        // 換頁
+        changeTab(containerSegmented)
+    }
+    
+    /// 更換containerView頁面
     @IBAction func changeTab(_ sender: UISegmentedControl) {
 //        for containerView in containerArray {
 //              containerView.isHidden = true
@@ -59,6 +80,9 @@ class Assignment03_1stViewController: UIViewController {
         for (index, containerView) in containerArray.enumerated() {
             containerView.isHidden = (index != sender.selectedSegmentIndex)
         }
+        
+        // 更新UIPageControl
+        dotPageControl.currentPage = containerSegmented.selectedSegmentIndex
     }
     
     /*
